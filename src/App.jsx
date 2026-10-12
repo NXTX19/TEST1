@@ -62,7 +62,7 @@ function App() {
 
   return <div className="site-shell">
     <header className="topbar">
-      <a className="brand" href="#home"><Heart size={15} fill="currentColor" /> <span>for my favorite person</span> <Heart size={15} fill="currentColor" /></a>
+      <a className="brand" href="#home"><Heart size={15} fill="currentColor" /> <span>for my favorite VISHI</span> <Heart size={15} fill="currentColor" /></a>
       <nav><a href="#home">Home</a><a href="#memories">Memory lane</a><a href="#surprises">Surprises</a><a href="#cake">Cake</a><a href="#letter">Letter</a></nav>
       <button className="music-button" onClick={() => { setMusicOn(!musicOn); setToast(musicOn ? 'Music paused in our imagination ♡' : 'Imagine your favourite song playing here ♡'); window.setTimeout(() => setToast(''), 2600); }}><Music2 size={15}/>{musicOn ? 'Music on' : 'Our soundtrack'}</button>
     </header>
@@ -73,7 +73,7 @@ function App() {
         <div className="hero-shade" />
         <div className="hero-content">
           <p className="eyebrow"><Sparkles size={13}/> A LITTLE STORY, MADE JUST FOR YOU <Sparkles size={13}/></p>
-          <h1>{entered ? <>Today, the world<br/><em>celebrates you.</em></> : <>Happy Birthday,<br/><em>my love.</em></>}</h1>
+          <h1>{entered ? <>Today, the world<br/><em>celebrates you.</em></> : <>Happy Birthday,<br/><em>bhadwi VIDUSHI.</em></>}</h1>
           <p className="hero-copy">A few memories, a few secrets, and a whole lot of love.<br/>I made this little corner of the internet just for you.</p>
           <button className="primary-button" onClick={() => { setEntered(true); document.getElementById('memories')?.scrollIntoView({ behavior: 'smooth' }); }}><Heart size={16} fill="currentColor"/> {entered ? 'Revisit our story' : 'Enter our story'} <span>↗</span></button>
           <div className="hero-footnote"><span className="tiny-line"/> SCROLL SLOWLY · THIS ONE IS YOURS <ArrowDown size={13}/></div>
